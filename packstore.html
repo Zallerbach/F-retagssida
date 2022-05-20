@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Online Sportcards</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <script
       src="https://kit.fontawesome.com/4b39a549d2.js"
       crossorigin="anonymous"
@@ -14,29 +14,76 @@
     <div class="container">
       <div class="navbar">
         <div class="menu">
-          <h3 class="logo">ONLINE<span>SPORTCARDS</span></h3>
+          <h1 class="logo">ONLINE<span>SPORTCARDS</span></h1>
           <div class="hamburger-menu">
             <div class="bar"></div>
           </div>
         </div>
       </div>
-      <div class="packcontainer">
-        <div class="imagecontainer">
-          <img src="#" alt="" />
-          <img src="#" alt="" />
-          <img src="#" alt="" />
-          <img src="#" alt="" />
-          <img src="#" alt="" />
+      <section class="product-list">
+        <h3>Packs</h3>
+        <div class="product-card">
+          <div class="title">Premier League bundle</div>
+          <div class="productimg">
+            <img src="images/pärm.webp" alt="Premier League bundle" />
+          </div>
+          <div class="text">114$</div>
+          <button class="buybtn">
+            <a href="shoppingcart.html">Buy now</a>
+          </button>
         </div>
+        <div class="product-card">
+          <div class="title">Top Class football stickers</div>
+          <div class="productimg">
+            <img src="images/stickers.webp" alt="trading-cards" />
+          </div>
+          <div class="text">54$</div>
+          <button class="buybtn">
+            <a href="shoppingcart.html">Buy now</a>
+          </button>
+        </div>
+        <div class="product-card">
+          <div class="title">Score booster box Football</div>
+          <div class="productimg">
+            <img src="images/boxpanini.webp" alt="Score booster box Football" />
+          </div>
+          <div class="text">78$</div>
+          <button class="buybtn">
+            <a href="shoppingcart.html">Buy now</a>
+          </button>
+        </div>
+        <div class="product-card">
+          <div class="title">Score booster Pack Football</div>
+          <div class="productimg">
+            <img
+              src="images/bundlepanini.webp"
+              alt="Score booster Pack Football"
+            />
+          </div>
+          <div class="text">70$</div>
+          <button class="buybtn">
+            <a href="shoppingcart.html">Buy now</a>
+          </button>
+        </div>
+        <div class="product-card">
+          <div class="title">Adrenalyn-XL Football Starter</div>
+          <div class="productimg">
+            <img
+              src="images/guldpärm.webp"
+              alt="Adrenalyn-xl Football Starter"
+            />
+          </div>
+          <div class="text">100$</div>
+          <button class="buybtn">
+            <a href="shoppingcart.html">Buy now</a>
+          </button>
+        </div>
+      </section>
 
-        <button id="leftbtn"><i class="fa fa-solid fa-left"></i></button>
-        <button id="rightbtn"><i class="fa fa-solid fa-right"></i></button>
-      </div>
-
-      <div class="links">
+      <nav class="links">
         <ul>
           <li>
-            <a href="#" style="--i: 0.025s"
+            <a href="profile.html" style="--i: 0.025s"
               ><i class="fa fa-solid fa-user"></i
             ></a>
           </li>
@@ -45,23 +92,27 @@
             <a href="index.html" style="--i: 0.05s">Home</a>
           </li>
           <li>
-            <a href="#" style="--i: 0.1s">My book</a>
+            <a href="shoppingcart.html" style="--i: 0.1s">Shop cart</a>
           </li>
           <li>
-            <a href="#" style="--i: 0.15s"> portfolio</a>
+            <a href="news.html" style="--i: 0.15s">News</a>
           </li>
           <li>
-            <a href="#" style="--i: 0.2s">News</a>
-          </li>
-          <li>
-            <a href="#" style="--i: 0.25s">About</a>
-          </li>
-          <li>
-            <a href="#" style="--i: 0.3s">Contact</a>
+            <a href="packstore.html" style="--i: 0.2s">Store</a>
           </li>
         </ul>
-      </div>
+      </nav>
     </div>
+    <footer>
+      <ul>
+        <li>
+          <a href="#">Twitter</a>
+        </li>
+        <li>
+          <a href="#">instagram</a>
+        </li>
+      </ul>
+    </footer>
 
     <script src="app.js"></script>
   </body>
